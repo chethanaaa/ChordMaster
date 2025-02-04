@@ -2,7 +2,7 @@
 
  Playing Guitar with Vision
 
-Introduction
+**Introduction**
 
 In the world of computer vision, machines are taught to interpret the visual world with a depth and precision that mirrors human capabilities.
 Computer vision is an extraordinary field that captivates my imagination and aligns perfectly with my interests in artificial intelligence and robotics. The concept of enabling machines to see, interpret and understand the visual world as humans do is both thrilling and transformative.
