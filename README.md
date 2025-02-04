@@ -1,6 +1,6 @@
 # ChordMaster
 
- Playing Guitar with Vision
+ *Playing Guitar with Vision*
 
 **Introduction**
 
@@ -9,21 +9,21 @@ Computer vision is an extraordinary field that captivates my imagination and ali
 One of the most compelling aspects of computer vision is its wide range of applications. From facial recognition technology used in smartphones and security systems to augmented reality applications that enhance our interaction with the digital world, CV is making our lives more convenient and secure. The ability to seamlessly integrate visual data into these technologies showcases the versatility and potential of computer vision.
 These applications highlight why I am so passionate about computer vision and its future. My interest in autonomous navigation, particularly for drones, is driven by the desire to explore how CV can enable machines to understand and interact with their surroundings autonomously. The prospect of developing intelligent systems that can navigate, make decisions and perform tasks without human intervention is incredibly exciting.
 
-Project Description
+**Project Description**
 
 The objective of my project, ChordMaster, is to create an innovative tool that leverages computer vision and machine learning to enhance the guitar learning experience. This project integrates several techniques from image processing and real-time video analysis to develop a system capable of recognizing and displaying guitar chords in real-time. Through this project, I have aimed to bridge the gap between traditional music learning and modern technology, providing amateur guitarists like me with a more intuitive and interactive method of receiving feedback on their playing. By developing a system that can detect guitar frets and recognize chords in real-time, I aim to provide immediate feedback on hand positions and chord formations, facilitating a more interactive and efficient learning process.
 At a high level, ChordMaster captures video input of a guitar and the player’s hand positions, processes the images to detect the fretboard, and utilizes a convolutional neural network to recognize various chords based on finger placements. The system then displays the detected chords on the screen, offering real-time visual feedback.
 In addition to chord and fret detection, the project includes a jigsaw puzzle module. This component uses sophisticated visual features to reconstruct images of my guitar from scattered pieces, showcasing the power and flexibility of image processing techniques. These two components of my project, ChordMaster for fret and chord detection and the jigsaw puzzle module, work together to enhance my understanding and application of computer vision in real-world scenarios, making learning both interactive and fun.
 
-Problem Statement
+**Problem Statement**
 
 As an amateur guitarist, I often find it challenging to ensure that my hand positions and chord formations are correct, especially when learning new songs. Traditional methods of learning chords from books or static diagrams can be cumbersome and do not provide real-time feedback. This is where my project, ChordMaster, comes into play.
 ChordMaster is designed to detect guitar frets and chords in real-time using computer vision techniques. The fret detection system uses edge detection and contour formation to accurately identify the fretboard, while the chord detection system employs a convolutional neural network to recognize the chords based on finger positions. This real-time feedback helps me and other guitar enthusiasts correct our hand positions instantly, improving our learning experience.
 In addition to chord detection, I also explored another intriguing application of computer vision: solving jigsaw puzzles. The puzzle-solving aspect of the project involves using image processing techniques to identify and match puzzle pieces based on their distinctive features. This project not only demonstrates the versatility of computer vision but also provides a fun and interactive way to apply the concepts learned in this course. 
 
-Design and Implementation
+**Design and Implementation**
 
-Technical Details
+**Technical Details**
 
 Implementation Highlights:
 
@@ -41,7 +41,7 @@ Feature Matching: The BF (Brute Force) Matcher was used to match features betwee
 Homography: Homography was applied to transform the pieces into the correct position to assemble the complete image.
 By combining these technical components, I was able to create a robust system that not only aids in playing the guitar but also demonstrates the application of computer vision in solving complex problems like jigsaw puzzles.
 
-Approach
+**Approach**
 
 Fret Detection
 
@@ -68,7 +68,7 @@ Feature Matching: Used the BF matcher to find matching features between puzzle p
 Homography Estimation: Estimated the homography transformation to align the puzzle pieces based on the matched features.
 Image Assembly: Transformed the puzzle pieces and assembled them into the complete image using the calculated homography.
 
-Implementation
+**Implementation**
 
 Fret Detection Implementation
 
@@ -120,7 +120,7 @@ In real-time chord detection, the input image is preprocessed by resizing, norma
 The preprocessed image is passed through the trained CNN, which outputs a probability distribution over the chord classes. The chord with the highest probability is selected as the predicted chord.
 Class indices are loaded from a pickle file to map model predictions to chord names. The predicted chord is displayed on the screen, providing immediate feedback to the user.
 
-Jigsaw Puzzle Implementation
+**Jigsaw Puzzle Implementation**
 
 The jigsaw puzzle assembly section involves detecting and matching features of puzzle pieces to reassemble the complete image.
 I captured the image of my guitar using a camera and constructed puzzle pieces out of it using an online puzzle creation software.
