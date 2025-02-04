@@ -20,7 +20,6 @@ Problem Statement
 As an amateur guitarist, I often find it challenging to ensure that my hand positions and chord formations are correct, especially when learning new songs. Traditional methods of learning chords from books or static diagrams can be cumbersome and do not provide real-time feedback. This is where my project, ChordMaster, comes into play.
 ChordMaster is designed to detect guitar frets and chords in real-time using computer vision techniques. The fret detection system uses edge detection and contour formation to accurately identify the fretboard, while the chord detection system employs a convolutional neural network to recognize the chords based on finger positions. This real-time feedback helps me and other guitar enthusiasts correct our hand positions instantly, improving our learning experience.
 In addition to chord detection, I also explored another intriguing application of computer vision: solving jigsaw puzzles. The puzzle-solving aspect of the project involves using image processing techniques to identify and match puzzle pieces based on their distinctive features. This project not only demonstrates the versatility of computer vision but also provides a fun and interactive way to apply the concepts learned in this course. 
-
 Figure 1: My Guitar
 These projects have allowed me to combine my passion for playing guitar with my interest in computer vision, resulting in tools that enhance both my musical practice and my understanding of image processing techniques.
 Design and Implementation
