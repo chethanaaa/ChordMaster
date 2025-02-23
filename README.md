@@ -1,6 +1,5 @@
-# ChordMaster
+# ChordMaster -- Guitar Learning with Computer Vision
 
- *Playing Guitar with Vision*
 
 **Introduction**
 
